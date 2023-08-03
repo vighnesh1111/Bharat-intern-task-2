@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #221d1d;
+}
+
+div {
+    overflow: hidden;
+}
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("home1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+.name {
+    background-image: url("name.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90px;
+    width: 300px;
+    margin-left: 200px;
+    float: left;
+}
+
+.signin {
+    float: right;
+    margin-right: 100px;
+}
+
+.signin button {
+    background: red;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.signin #but {
+    width: 150px;
+    height: 38px;
+    color: white;
+    background: transparent;
+    border: white 2px solid;
+    font-size: 15px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    color: white;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(270deg);
+}
+
+.main2 {
+    color: white;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.main2 h1 {
+    font-size: 50px;
+}
+
+.main3 h1 {
+    font-size: 50px;
+}
+
+.main2 #p1 {
+    font-size: 30px;
+}
+
+.main3 #p3 {
+    font-size: 25px;
+}
+
+.main2 #p2 {
+    font-size: 25px;
+}
+
+.main2 #first {
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 1px rgb(195, 189, 189) solid;
+}
+
+.main2 button {
+    background: red;
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+}
+
+.main3 {
+    color: white;
+    height: 80vh;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.part1 {
+    float: left;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.part2 {
+    float: right;
+    background-image: url("tv.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.main4 {
+    color: white;
+    height: 80vh;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.part3 {
+    float: left;
+    background-image: url("mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.part4 {
+    float: right;
+    margin-right: 50px;
+    margin-top: 200px;
+    width: 50%;
+}
+
+.main4 h1 {
+    font-size: 50px;
+}
+
+.main4 #p4 {
+    font-size: 25px;
+}
+
+.main5 {
+    color: white;
+    height: 80vh;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.main5 .part1 {
+    float: left;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.main5 .part2 {
+    float: right;
+    background-image: url("tv2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.main5 h1 {
+    font-size: 50px;
+}
+
+.main5 #p5 {
+    font-size: 25px;
+}
+
+.main6 {
+    color: white;
+    height: 80vh;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.main6 .part1 {
+    float: left;
+    background-image: url("cartoon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.part {
+    float: right;
+    margin-right: 50px;
+    margin-top: 200px;
+    width: 50%;
+}
+
+.main6 h1 {
+    font-size: 50px;
+}
+
+.main6 #p6 {
+    font-size: 25px;
+}
+
+.main7 {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    height: 120vh;
+}
+
+.main7 h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main7 ul {
+    margin: auto;
+    width: 80%;
+    font-size: 25px;
+    list-style: none;
+}
+
+.main7 li {
+    background-color: rgb(82, 75, 75);
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.main7 li:hover {
+    background: #908383;
+}
+
+#last {
+    text-align: center;
+    font-size: 25px;
+}
+
+.last {
+    margin: auto;
+    text-align: center;
+}
+
+#first {
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 1px rgb(195, 189, 189) solid;
+}
+
+button {
+    background: red;
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+}
+
+.end {
+    background-color: black;
+    height: 70vh;
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+}
+
+#call {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.endlast {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+.endlast li {
+    margin-bottom: 10px;
+}
+
+.end #but {
+    width: 150px;
+    height: 38px;
+    color: white;
+    background: transparent;
+    border: white 2px solid;
+    font-size: 15px;
+}
+
+.m {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background: rgb(117, 10, 10);
+}
